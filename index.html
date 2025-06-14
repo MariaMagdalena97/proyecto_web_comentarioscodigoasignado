@@ -1,3 +1,4 @@
+<!--- Codigo para trabajo con htms-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,17 +9,22 @@
 </head>
 <body>
 
-<header>
+<header> <!--- Contiene el titulo de la página-->
     <div class="container">
+        <!--- Texto de presentacion-->
         <h1>¡Bienvenido a nuestra página!</h1>
         <p>Sitio web de muestra para una empresa ficticia</p>
+        <!--- Redirige a la ubicacion de la seccion "Ver caracteristicas" de la misma página--->
         <a href="#features" class="btn">Ver características</a>
+        <!---Cierre d ela seccion de presentacion-->
     </div>
 </header>
 
+<!--- sEcccion de caracteristicas, a la cual se le da el id "features" para trabajar en el css-->
 <section id="features">
     <div class="container">
         <h2>Características principales</h2>
+        <!-- LAs sigueitnes divisiones separas las caracteristicas dle servicio en diferentes cuadros-->
         <div class="feature">
             <h3>Facilidad de uso</h3>
             <p>Nuestra plataforma es fácil de usar para cualquier persona, sin importar su experiencia.</p>
@@ -35,6 +41,7 @@
 </section>
 
 <section id="testimonials">
+    <!--Las siguientes divisiones separan los testimonios-->
     <div class="container">
         <h2>Testimonios</h2>
         <div class="testimonial">
@@ -50,6 +57,7 @@
 
 <section id="contact">
     <div class="container">
+        <!-- Permite un acceso a crear comentarios y enviarlos a una posible bdd, al enviar se regarga la pagina-->
         <h2>Contacto</h2>
         <form action="#" method="post">
             <input type="text" name="name" placeholder="Nombre" required>
@@ -62,6 +70,7 @@
 
 <footer>
     <div class="container">
+        <!--Contiene la firma de la pagina, con su propia division apra darle formato-->
         <p>&copy; 2025 Compañía XYZ. Todos los derechos reservados.</p>
     </div>
 </footer>
